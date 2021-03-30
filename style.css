@@ -1,7 +1,29 @@
 #menu
 {
+	display: inline-flex;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 40px;
+	background:lightcyan;
+	justify-content: center;
+}
+li {
+	float: left;
+  }
+li a:hover {
+	background-color: rgb(136, 136, 212);
+  }
+body
+{
+	background-color: rgb(181, 243, 240);
+	
+}
+section
+{
+	justify-content: center;
+	text-align: center;		
+}
+b
+{
+	font-size: 40px;
 }
