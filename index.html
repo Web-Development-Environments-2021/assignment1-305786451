@@ -7,7 +7,8 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu" >
+<div id="menu">
+<!-- <ul> -->
   <li> <a href="#about">About Me</a> </li>
   <li> <a href="#photos">My Photos</a> </li>
   <li> <a href="#playlist">My Playlist</a> </li>
@@ -15,21 +16,10 @@
   <li> <a href="#qrcoder">QR code</a> </li>
   <li> <a href="#spa">Q&A</a> </li>
   <li> <a href="#contact">Contact Me</a> </li>
+<!-- </ul> -->
 </div>
 		  
 <section id="about" class="section">
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
   <br/>
   <br/>
   <br/>
@@ -49,16 +39,47 @@
   <br/>
   <br/>
   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
   <b>my photos</b>
+  <br/>
+  <!-- <div class="gallery">
+    <figure id="myGallery">
+      <img src="pictures/p1.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p2.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p3.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p3.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p4.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p5.jpg" id="imgGallery">
+    </figure>
+    <figure id="myGallery">
+      <img src="pictures/p6.jpg" id="imgGallery">
+    </figure>
+  </div> -->
+  <div class="gallery">
+    <figure id="myGallery">
+      <img src="pictures/p1.jpg" id="imgGallery">
+      <img src="pictures/p2.jpg" id="imgGallery">
+      <img src="pictures/p3.jpg" id="imgGallery">
+      <img src="pictures/p4.jpg" id="imgGallery">
+      <img src="pictures/p5.jpg" id="imgGallery">
+      <img src="pictures/p6.jpg" id="imgGallery">
+    </figure>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  
+  <br/>
+  <br/>
   <br/>
   <br/>
   <br/>
@@ -66,46 +87,19 @@
 
 <section id="playlist" class="section">
   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
   <b>my playlist</b>
   <br/>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLn54Rnxr0aXLr0ggLRfySrVKiDr27ZV2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
 
 <section id="like" class="section">
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+
   <br/>
   <br/>
   <b>give me a like</b>
   <br/>
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" 
-    src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v10.0" 
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" 
     nonce="G0hqTawq">
   </script>
   <div class="fb-like" 
@@ -126,17 +120,7 @@
   <br/>
   <br/>
   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <b data-size="35px">scan my code</b>
+  <b>scan my code</b>
   <br/>
   <img src="pictures/web_QR.png" width="300" height="300"></img>
   <br/>
@@ -144,20 +128,6 @@
 </section>
 
 <section id="spa" class="section">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
     <br/>
     <br/>
     <b>ans</b>
@@ -170,20 +140,7 @@
   <br/>
   <br/>
   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <b>Contact me</b>
-  <br/>
-  <br/>
+  <b>contact me</b>
   <form action="mailto:eilamgal8@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
     <p>
       <label>Name:
@@ -201,10 +158,11 @@
     <p>
       <label>Message:
         <br>
-        <textarea name="ContactCommentt" rows="16" cols="90"></textarea>
+        <textarea name="ContactCommentt" rows="16" cols="60"></textarea>
       </label>
    </p>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit"  onclick="submitForm()">
+    <!-- <input type="reset" value="reset" onclick=""> -->
   </form>
   <br/>
   <br/>
@@ -224,6 +182,14 @@ $(function(){
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
+ </script>
+ <script>
+   function submitForm(){
+     let form = document.getElementById("contact").form[0];
+     form.submit();
+     form.reset();
+     return;
+   }
  </script>
 </body>
 </html>
