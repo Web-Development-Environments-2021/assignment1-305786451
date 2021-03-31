@@ -32,57 +32,35 @@
 </section>
 
 <section id="photos" class="section">
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
   <b>my photos</b>
   <br/>
-  <!-- <div class="gallery">
-    <figure id="myGallery">
-      <img src="pictures/p1.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p2.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p3.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p3.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p4.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p5.jpg" id="imgGallery">
-    </figure>
-    <figure id="myGallery">
-      <img src="pictures/p6.jpg" id="imgGallery">
-    </figure>
-  </div> -->
-  <div class="gallery">
-    <figure id="myGallery">
-      <img src="pictures/p1.jpg" id="imgGallery">
-      <img src="pictures/p2.jpg" id="imgGallery">
-      <img src="pictures/p3.jpg" id="imgGallery">
-      <img src="pictures/p4.jpg" id="imgGallery">
-      <img src="pictures/p5.jpg" id="imgGallery">
-      <img src="pictures/p6.jpg" id="imgGallery">
-    </figure>
-  </div>
-  <br/>
-  <br/>
-  <br/>
-  
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+  <section class="gallery">
+    <div class="gallery__item">
+      <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt=""/>
+      <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
+      <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://picsum.photos/id/1057/600/400.jpg" alt=""/>
+      <label for="img-3" class="gallery__thumb"><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="https://picsum.photos/id/106/600/400.jpg" alt=""/>
+      <label for="img-4" class="gallery__thumb"><img src="https://picsum.photos/id/106/150/100.jpg" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="pictures/p4.jpg" alt=""/>
+      <label for="img-5" class="gallery__thumb"><img src="pictures/p4.png" alt=""/></label>
+    </div>
+  </section>
 </section>
 
 <section id="playlist" class="section">
@@ -162,7 +140,7 @@
       </label>
    </p>
     <input type="submit" value="Submit"  onclick="submitForm()">
-    <!-- <input type="reset" value="reset" onclick=""> -->
+    <input type="reset" value="Reset" onclick="">
   </form>
   <br/>
   <br/>
