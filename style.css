@@ -1,11 +1,11 @@
   #menu {
 	list-style-type: none; 
-	/* display: inline-flex; */
+	display: inline-flex;
 	position: fixed;
 	background-color: rgb(224, 255, 255);
-	overflow: visible;
+	overflow: hidden;
 	width: 99%;
-	
+	z-index: 1000;
   }
   
   li {
@@ -13,7 +13,6 @@
   }
   
   li a {
-
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	display: block;
 	color: black;
@@ -38,11 +37,20 @@ section{
 b{
 	font-size: 40px;
 	line-height: 60px;
+	color: rgb(58, 65, 71);
+	
+}
+.sectionTitle {
+	width: 99%;
+	background-color: thistle;
+	margin: 10px;
+	/* border-top-width: 0px; */
 }
 form{
-	color: rgb(119, 47, 63);
+	color: rgb(240, 159, 9);
 	box-shadow: rgb(246, 248, 255);
 	/* box-shadow: 0px 0px 10px blueviolet; */
+	/* width: 20%; */
 	margin-left: 30%;
 	margin-right: 30%;
 	/* background-color: rgb(136, 136, 212); */
@@ -91,4 +99,26 @@ form{
   .gallery__selector:checked ~ .gallery__thumb > img {
 	box-shadow: 0 0 0 3px #0be2f6;
   }
-
+hr{
+	width: 100%;
+	border: 1px solid rgb(58, 65, 71);
+	width: 80%;
+	background-color: rgb(58, 65, 71);
+}
+#temp{
+	size: 2px;
+	font-size: 20px;
+}
+#like{
+	position: static;
+}
+.button{
+	color: rgb(240, 159, 9);
+	margin: 1%;
+	border: solid black;
+	background-color: rgb(233, 233, 214);
+}
+/* 
+input:hover{
+	background-color:  rgb(204, 127, 200);
+} */
