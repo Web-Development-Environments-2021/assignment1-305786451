@@ -2,10 +2,12 @@
 	list-style-type: none; 
 	display: inline-flex;
 	position: fixed;
-	background-color: rgb(224, 255, 255);
+	background-color: rgb(224, 255, 255,.9);
 	overflow: hidden;
-	width: 99%;
-	z-index: 1000;
+	/* width: 147.7em; */
+	/* width: 99.9%; */
+	/* margin: auto; */
+	z-index: 800;
   }
   
   li {
@@ -26,15 +28,25 @@
   } 
   
 body{
-	background-color: rgb(164, 199, 197);
+	/* background-color: rgb(164, 199, 197); */
+	background: hsla(141, 54%, 86%, 1);
+
+	background: linear-gradient(315deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+	
+	background: -moz-linear-gradient(315deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+	
+	background: -webkit-linear-gradient(315deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+	
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#caefd7", endColorstr="#f5bfd7", GradientType=1 );
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	
 }
+
 section{
 	justify-content: center;
 	text-align: center;		
 }
-b{
+.headline{
 	font-size: 40px;
 	line-height: 60px;
 	color: rgb(58, 65, 71);
@@ -47,8 +59,9 @@ b{
 	/* border-top-width: 0px; */
 }
 form{
-	color: rgb(240, 159, 9);
+	color: rgb(0, 0, 0);
 	box-shadow: rgb(246, 248, 255);
+	/* background-size: cover; */
 	/* box-shadow: 0px 0px 10px blueviolet; */
 	/* width: 20%; */
 	margin-left: 30%;
@@ -70,6 +83,7 @@ form{
 	max-width: 600px;
 	position: relative;
 	padding-top: 66.6666666667%;
+	border-color: black;
 }
   @media screen and (min-width: 600px) {
 	.gallery {
@@ -107,13 +121,13 @@ hr{
 }
 #temp{
 	size: 2px;
-	font-size: 20px;
+	font-size: 25px;
 }
-#like{
+/* #like{
 	position: static;
-}
+} */
 .button{
-	color: rgb(240, 159, 9);
+	color: rgb(0, 0, 0);
 	margin: 1%;
 	border: solid black;
 	background-color: rgb(233, 233, 214);
@@ -122,3 +136,40 @@ hr{
 input:hover{
 	background-color:  rgb(204, 127, 200);
 } */
+.ans{
+	text-align: left;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-size: 20px;
+}
+#table{
+	align-self: center;
+	/* margin-left: 35%; */
+	text-align: center;
+	border-color: black;
+	font-size: 20px;
+	justify-content: center;
+}
+
+#pagehead{
+	background-image: url(pictures/headview1.jpg);
+	/* font-size: 100px; */
+	background-size: cover;
+	/* width: 99.99%; */
+	/* width: 99.9%; */
+	/* margin: auto; */
+	/* background-position: center center; */
+	position: absolute;
+	/* display: inline-flex; */
+	
+	
+	
+}
+#ChavahShavitt{
+	font-size: 100px;
+	color: bisque; 
+}
+.top{
+	width: 99%;
+	margin: auto;
+}
