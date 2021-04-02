@@ -4,6 +4,7 @@
 	position: fixed;
 	background-color: rgb(224, 255, 255,.9);
 	overflow: hidden;
+	
 	/* width: 147.7em; */
 	/* width: 99.9%; */
 	/* margin: auto; */
@@ -28,7 +29,6 @@
   } 
   
 body{
-	/* background-color: rgb(164, 199, 197); */
 	background: hsla(141, 54%, 86%, 1);
 
 	background: linear-gradient(315deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
@@ -149,6 +149,7 @@ input:hover{
 	border-color: black;
 	font-size: 20px;
 	justify-content: center;
+	text-align: left;
 }
 
 #pagehead{
@@ -167,9 +168,25 @@ input:hover{
 }
 #ChavahShavitt{
 	font-size: 100px;
-	color: bisque; 
+	color: bisque;
+	/* border: 1px solid black; */
+	/* float: unset; */
+	height: auto;
 }
 .top{
 	width: 99%;
 	margin: auto;
+}
+/* .textbox{
+	width: 160px;
+} */
+#namebox{
+	width: 210px;
+	margin: 1%;
+}
+#emailbox{
+	width: 160px;
+}
+.webtypes{
+	text-align: center;
 }

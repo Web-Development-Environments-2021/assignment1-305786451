@@ -23,8 +23,7 @@
   <br>
   <br>
   <br>
-  <b class="headline" id= "ChavahShavitt">Chavah Shavitt</b>
-
+  <b class="headline" id= "ChavahShavitt">&nbsp; Chavah Shavitt</b>
   <br>
   <br>
   <br>
@@ -74,7 +73,6 @@
 <br>
 <br>
 <br>
-
 <section id="about" class="section">
   <br/>
   <br/>
@@ -84,16 +82,16 @@
   <br/>
   <p class="ans">
     Chavah Shavitt was born in Berlin on the to the name Chavah Rom.<br>
-In 193? she was sent to London as part of the Kinder transports.
-Chavah was adopted by english family and lived with them for about 7 years.<br>
-After the war, her mother came to London and take her from her adopted family and they lived together in London.<br>
-She Joined the " Habonim "youth movement in 1950 and there she meets Gabriel Shavitt, her future husband.
-Later on this year she started to study physiotherapy in Sent Morris Hospital in London.<br>
-In 1952 Gabriel and Chavah married and in 1955 they moved to Israel, they came on a boot and land on Haifa bay.
-First, they lived in Jerusalem for five months to learn Hebrew and after that, they moved to Ramat Hasharon where she lived today.<br>
-In she started to work as a physician in Beilinson hospital. She was the founder of the physiotherapy center in Beilinson hospital.<br>
-Chavah and Gabriel have Three children Gilon, Dotan, and Hila.  
-She has a big collection of owl porcelain dolls. In the post-Corona world, she really enjoyed going out to concerts and travel the world.<br>
+    In 193? she was sent to London as part of the Kinder transports.
+    Chavah was adopted by english family and lived with them for about 7 years.<br>
+    After the war, her mother came to London and take her from her adopted family and they lived together in London.<br>
+    She Joined the " Habonim "youth movement in 1950 and there she meets Gabriel Shavitt, her future husband.
+    Later on this year she started to study physiotherapy in Sent Morris Hospital in London.<br>
+    In 1952 Gabriel and Chavah married and in 1955 they moved to Israel, they came on a boot and land on Haifa bay.
+    First, they lived in Jerusalem for five months to learn Hebrew and after that, they moved to Ramat Hasharon where she lived today.<br>
+    In she started to work as a physician in Beilinson hospital. She was the founder of the physiotherapy center in Beilinson hospital.<br>
+    Chavah and Gabriel have Three children Gilon, Dotan, and Hila.  
+    She has a big collection of owl porcelain dolls. In the post-Corona world, she really enjoyed going out to concerts and travel the world.<br>
   <br>
   </p>
   <!-- <br/> -->
@@ -213,24 +211,24 @@ She has a big collection of owl porcelain dolls. In the post-Corona world, she r
     </p>
     <table id="table" border="1" align="center">
       <tr>
-        <td>Web1.0 </td>
-        <td>Web2.0 </td>
-        <td>Web3.0 </td>
+        <td class= "webtypes"><b>Web1.0</b></td>
+        <td class= "webtypes"><b>Web2.0</b></td>
+        <td class="webtypes"><b>Web3.0</b></td>
       </tr>
       <tr>
-        <td>Mostly Read-Only </td>
-        <td>Wildly Read-Write </td>
-        <td>Portable and Personal </td>
+        <td>&nbsp; Mostly Read-Only &nbsp;</td>
+        <td>&nbsp; Wildly Read-Write &nbsp;</td>
+        <td>&nbsp; Portable and Personal &nbsp;</td>
       </tr>
       <tr>
-        <td>Company Focus </td>
-        <td>Community Focus </td>
-        <td>Individual Focus </td>
+        <td>&nbsp; Company Focus &nbsp;</td>
+        <td>&nbsp; Community Focus &nbsp;</td>
+        <td>&nbsp; Individual Focus &nbsp;</td>
       </tr>
       <tr>
-        <td>Owning Content </td>
-        <td>Sharing Content </td>
-        <td>Consolidating Content </td>
+        <td>&nbsp; Owning Content &nbsp;</td>
+        <td>&nbsp; Sharing Content &nbsp;</td>
+        <td>&nbsp; Consolidating Content &nbsp;</td>
       </tr>
     </table>
     <p class="ans">
@@ -264,10 +262,10 @@ She has a big collection of owl porcelain dolls. In the post-Corona world, she r
         <br>
         <input type = "email" name="emailAddress" placeholder = "Email" required />
       </label> -->
-      <input type = "text" size="19" name="ContactName" placeholder = "Name" required/>
+      <input type = "text" id="namebox" class="textbox" size="19" name="ContactName" placeholder = "Name" required />
       <br> 
-      <input type = "email" name="emailAddress" placeholder = "Email" required />
-      <br>
+      <input type = "email" id="emailbox" class="textbox" name="emailAddress" placeholder = "Email" required />
+      <!-- <br> -->
       <select name="eimojy" id="eimojy">
         <option value=😀>😀</option>
         <option value=😍>😍</option>
@@ -283,10 +281,12 @@ She has a big collection of owl porcelain dolls. In the post-Corona world, she r
 
     <p>
       <label>
-        <br>
-        <textarea name="ContactCommentt" rows="8" cols="40" placeholder = "Message" ></textarea>
+        <!-- <br> -->
+        <textarea name="ContactCommentt" rows="8" cols="30" placeholder = "Message" ></textarea>
       </label>
    </p>
+   <!-- <br> -->
+
     <input type="submit" value="Submit" class="button"  onclick="submitForm()">
     <input type="reset" value="Reset" class="button" id="r" onclick="">
   </form>
