@@ -4,10 +4,6 @@
 	position: fixed;
 	background-color: rgb(224, 255, 255,.9);
 	overflow: hidden;
-	
-	/* width: 147.7em; */
-	/* width: 99.9%; */
-	/* margin: auto; */
 	z-index: 800;
   }
   
@@ -21,8 +17,7 @@
 	color: black;
 	text-align: right;
 	padding: 16px;
-	text-decoration: none;
-	
+	text-decoration: none;	
   }
   li a:hover {
 	background-color: rgb(204, 127, 200);
@@ -38,11 +33,7 @@ body{
 	background: -webkit-linear-gradient(315deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
 	
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#caefd7", endColorstr="#f5bfd7", GradientType=1 );
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-	
-	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
 }
 
 section{
@@ -59,24 +50,15 @@ section{
 	width: 99%;
 	background-color: thistle;
 	margin: 10px;
-	/* border-top-width: 0px; */
 }
 form{
 	color: rgb(0, 0, 0);
 	box-shadow: rgb(246, 248, 255);
-	/* background-size: cover; */
-	/* box-shadow: 0px 0px 10px blueviolet; */
-	/* width: 20%; */
-	/* margin-left: 30%;
-	margin-right: 30%; */
-	/* display: inline-flexbox; */
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
-	/* background-color: rgb(136, 136, 212); */
 	background-image: url(pictures/owl.ipg.jpg);
 	border-radius: 10px;
-	/* position: absolute; */
 }
 * {
 	box-sizing: border-box;
@@ -131,20 +113,14 @@ hr{
 	size: 2px;
 	font-size: 25px;
 }
-/* #like{
-	position: static;
-} */
+
 .button{
 	color: rgb(0, 0, 0);
 	margin: 1%;
 	border: solid black;
-	/* border: black; */
 	background-color: rgb(233, 233, 214);
 }
-/* 
-input:hover{
-	background-color:  rgb(204, 127, 200);
-} */
+
 .ans{
 	text-align: left;
 	margin-left: 12%;
@@ -153,7 +129,6 @@ input:hover{
 }
 #table{
 	align-self: center;
-	/* margin-left: 35%; */
 	text-align: center;
 	border-color: black;
 	font-size: 20px;
@@ -163,36 +138,19 @@ input:hover{
 
 #pagehead{
 	background-image: url(pictures/headview1.jpg);
-	/* font-size: 100px; */
 	background-size: cover;
-	/* background-size: contain;
-	background-repeat: no-repeat; */
-	/* width: 99.99%; */
-	/* width: 99.9%; */
-	/* margin: auto; */
 	background-position: center center;
 	position: absolute;
-
-	/* background-size: auto; */
-	/* display: inline-flex; */
-	
-	
-	
 }
 #ChavahShavitt{
 	font-size: 100px;
 	color: bisque;
-	/* border: 1px solid black; */
-	/* float: unset; */
 	height: auto;
 }
 .top{
 	width: 99%;
 	margin: auto;
 }
-/* .textbox{
-	width: 160px;
-} */
 #namebox{
 	width: 207.5px;
 	margin: 1%;
@@ -203,15 +161,3 @@ input:hover{
 .webtypes{
 	text-align: center;
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-	html {
-	  transform: rotate(-90deg);
-	  transform-origin: left top;
-	  width: 100vh;
-	  overflow-x: hidden;
-	  position: absolute;
-	  top: 100%;
-	  left: 0;
-	} */
-  }
