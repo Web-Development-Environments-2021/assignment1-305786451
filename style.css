@@ -138,6 +138,7 @@ hr{
 	color: rgb(0, 0, 0);
 	margin: 1%;
 	border: solid black;
+	/* border: black; */
 	background-color: rgb(233, 233, 214);
 }
 /* 
@@ -164,11 +165,14 @@ input:hover{
 	background-image: url(pictures/headview1.jpg);
 	/* font-size: 100px; */
 	background-size: cover;
+	/* background-size: contain;
+	background-repeat: no-repeat; */
 	/* width: 99.99%; */
 	/* width: 99.9%; */
 	/* margin: auto; */
 	background-position: center center;
 	position: absolute;
+
 	/* background-size: auto; */
 	/* display: inline-flex; */
 	
@@ -190,7 +194,7 @@ input:hover{
 	width: 160px;
 } */
 #namebox{
-	width: 207px;
+	width: 207.5px;
 	margin: 1%;
 }
 #emailbox{
